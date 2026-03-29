@@ -1,0 +1,26 @@
+# TimeFYI Embed Widget
+
+> Embeddable TimeFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/timefyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://timefyi.com
+- Widget docs: https://widget.timefyi.com
+- npm: https://www.npmjs.com/package/timefyi-embed
+- GitHub: https://github.com/fyipedia/timefyi-embed
+- API: https://timefyi.com/developers/
+
+## Utility FYI Widget Family
+
+- [UnitFYI Widget](https://widget.unitfyi.com)
+- [HolidayFYI Widget](https://widget.holidayfyi.com)
+- [NameFYI Widget](https://widget.namefyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com

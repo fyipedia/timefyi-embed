@@ -1,21 +1,53 @@
 # TimeFYI Embed Widget
 
-> Embeddable TimeFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Timezone ops, business hours. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/timefyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/timefyi-embed@1/dist/embed.min.js"></script>
+<div data-timefyi="clock" data-slug="example"></div>
+```
+
+## Available Widget Types (9)
+
+- entity: `data-timefyi="entity"`
+- glossary: `data-timefyi="glossary"`
+- guide: `data-timefyi="guide"`
+- compare: `data-timefyi="compare"`
+- search: `data-timefyi="search"`
+- faq: `data-timefyi="faq"`
+- clock (interactive): `data-timefyi="clock"`
+- sunrise (interactive): `data-timefyi="sunrise"`
+- city-compare (interactive): `data-timefyi="city-compare"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-timefyi="clock" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/timefyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://timefyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://timefyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://timefyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://timefyi.com
 - Widget docs: https://widget.timefyi.com
-- npm: https://www.npmjs.com/package/timefyi-embed
+- API documentation: https://timefyi.com/developers/
+- npm package: https://www.npmjs.com/package/timefyi-embed
 - GitHub: https://github.com/fyipedia/timefyi-embed
-- API: https://timefyi.com/developers/
 
-## Utility FYI Widget Family
+## Utility FYI Widget Network
 
 - [UnitFYI Widget](https://widget.unitfyi.com)
 - [HolidayFYI Widget](https://widget.holidayfyi.com)

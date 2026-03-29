@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# TimeFYI Embed Widget
+# Main site: https://timefyi.com
+# Widget docs: https://widget.timefyi.com
+# npm: https://www.npmjs.com/package/timefyi-embed
